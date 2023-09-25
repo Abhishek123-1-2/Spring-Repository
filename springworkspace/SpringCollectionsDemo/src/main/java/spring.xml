@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+<bean id="emp1" class="in.mindcraft.SpringCollectionsDemo.Emp">
+<property name="name" value="Abhishek"></property>
+<property name="phones">
+<list>
+<value>
+9082256505
+</value>
+<value>
+7678066981
+</value>
+<value>
+9967577124
+</value>
+<value>
+5951125
+</value>
+</list>
+</property>
+<property name="adresses">
+<set>
+<value>
+B314 Bina Apartments
+</value>
+<value>
+B314 Bina Apartments
+</value>
+<value>
+B314 Bina Apartments
+</value>
+<value>
+B314 Bina Apartments
+</value>
+</set>
+</property>
+<property name="courses">
+<map>
+<entry key="java" value="2months"></entry>
+<entry key="python" value="1month"></entry>
+<entry key="sql" value="1month"></entry>
+</map>
+</property>
+</bean>
+
+</beans>

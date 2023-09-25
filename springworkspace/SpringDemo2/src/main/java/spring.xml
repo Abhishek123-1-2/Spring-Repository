@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+<!-- bean definitions here -->
+
+<bean id="lap" class="in.mindcraft.SpringDemo2.Laptop">
+<constructor-arg  value="301"></constructor-arg>
+<constructor-arg  value="Apple Macbook Air"></constructor-arg>
+<constructor-arg  value="100000"></constructor-arg>
+</bean>
+<bean id="stu" class="in.mindcraft.SpringDemo2.Student">
+<property name="rollno" value="3"></property>
+<property name="fname" value="Abhishek"></property>
+<property name="lname" value="Pillai"></property>
+</bean>
+</beans>

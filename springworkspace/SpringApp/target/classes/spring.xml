@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+<!-- bean definitions here -->
+<bean id="lap" class="in.mindcraft.SpringApp.LAPTOP">
+	<property name="lid" value="1001"></property>
+	<property name="make" value="Lenovo"></property>
+	<property name="cost" value="12000"></property>    
+</bean>
+<bean id="lap2" class="in.mindcraft.SpringApp.LAPTOP">
+	<property name="lid" value="1002"></property>
+	<property name="make" value="AppleMacbook"></property>
+	<property name="cost" value="80000"></property>
+</bean>
+<bean id="l2" class="in.mindcraft.SpringApp.LAPTOP">
+	<constructor-arg value="2001"></constructor-arg>
+    <constructor-arg value="HP"></constructor-arg>
+	<constructor-arg value="26000"></constructor-arg>
+
+</bean>
+
+</beans>

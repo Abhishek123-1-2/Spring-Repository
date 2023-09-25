@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+<!-- bean definitions here -->
+<bean id="resd" class="in.mindcraft.SpringApp1.Adress">
+	<property name="city" value="Mumbai"></property>
+	<property name="state" value="Maharashtra"></property>
+</bean>
+<bean id="lap" class="in.mindcraft.SpringApp1.Laptop">
+	<property name="lid" value="1001"></property>
+	<property name="make" value="Apple"></property>
+	<property name="cost" value="80000"></property>
+</bean>
+<bean id="stu1" class="in.mindcraft.SpringApp1.Student">
+	<property name="rollno" value="11"></property>
+	<property name="name" value="Abhishek"></property>
+</bean>
+
+</beans>

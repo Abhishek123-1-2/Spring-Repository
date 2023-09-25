@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+<!-- bean definitions here -->
+<bean id="adress" class="in.mindcraft.SpringDemo.Adress">
+<constructor-arg value="Mumbai"></constructor-arg>
+<constructor-arg value="Mahrashtra"></constructor-arg>
+</bean>
+<bean id="dcard" class="in.mindcraft.SpringDemo.DebitCard" autowire="byName">
+
+</bean>
+
+
+
+</beans>
